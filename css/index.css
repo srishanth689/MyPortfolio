@@ -1,0 +1,174 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: medium;
+}
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    background-color: #333;
+    padding: 1rem;
+}
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+.navbar a:hover {
+    background-color: #575757;
+}
+.mynav {
+    position: -webkit-sticky; /* For Safari */
+    position: sticky;
+    top: 0;
+    z-index: 1000; /* Ensure it stays on top */
+}
+.home-section, .contact-section, .skills-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh; /* Full viewport height */
+    padding: 2rem;
+}
+.home-section img{
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    margin-left: 3rem; /* Ensure the image is perfectly round */
+}
+.home-section .info{
+    margin-left: 8rem;
+}
+.home-section .info h1{
+    font-size: 2rem;
+}
+.home-section .info p{
+    font-size: 1.3rem;
+}
+
+
+.contact-section {
+    justify-content: center; /* Center the form horizontally */
+}
+.contact-section form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    background: rgba(255, 255, 255, 0.8); /* Transparent background */
+    backdrop-filter: blur(10px); /* Blur effect */
+    padding: 2rem;
+    border-radius: 10px; /* Rounded corners */
+}
+.contact-section form input, .contact-section form textarea {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border-radius: 5px; /* Rounded corners */
+}
+.contact-section form button {
+    padding: 0.5rem;
+    font-size: 1rem;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px; /* Rounded corners */
+    width: 150px; /* Small button */
+    align-self: flex-end; /* Align button to the right */
+}
+.contact-section form button:hover {
+    background-color: #575757;
+}
+.skills-section {
+    flex-direction: column;
+    text-align: center;
+    
+}
+.skills-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 0rem;
+}
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.skill-card {
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 200px;
+    margin: 1rem;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.skill-card img {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.skill-card .skill-name {
+    padding: 1rem;
+    font-size: 1.2rem;
+    background-color: #333;
+    color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.projects-section {
+    padding: 2rem;
+    padding-top: 200px;
+    text-align: center;
+}
+.projects-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+.project-card {
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin: 1rem;
+    padding: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.project-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+.project-card p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+.project-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+.certifications-section {
+    padding: 2rem;
+    text-align: center;
+}
+.certifications-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+.certification-card {
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin: 1rem;
+    padding: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.certification-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+.certification-card p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+
